@@ -91,9 +91,9 @@ These include, for each virus, forest plots and tables reporting estimated param
 
 ## Figures
 
-The `figures` directory includes a heatmap illustrating correlations between detected seropositivities across different viruses and ...
+The `figures` directory includes a heatmap illustrating correlations between detected seropositivities across different viruses, a world map highlighting countries where sampling took place and ...
 
-- **Figures with the prefix `seroposrate`** displaying mean seropositivities for each virus (as indicated by the file suffixes) and for each combination of bat species, sampling site, and sampling year.
+**Figures with the prefix `seroposrate`** displaying mean seropositivities for each virus (as indicated by the file suffixes) and for each combination of bat species, sampling site, and sampling year.
   
   - **Figures with the suffix `BySpecies`** presenting average seropositivities sorted by bat species. Gray vertical lines demarcate transitions between different species. Dot colors represent sampling sites (i.e., dots of the same color indicate mean seropositivities for bat species sampled from the same site), and dot sizes are proportional to the number of samples collected.
   
