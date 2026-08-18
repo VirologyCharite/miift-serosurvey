@@ -1,4 +1,4 @@
-This repo contains the code for the statistical analyses used in **"A global multiregional serosurvey of RNA virus-reactive antibodies in bats and rodents"**, submitted to *PLOS Neglected Tropical Diseases*.
+This repo contains the code for the statistical analyses used in **"A multiregional serosurvey of RNA virus-reactive antibodies in bats and rodents"**, submitted to *PLOS Neglected Tropical Diseases*.
 
 ## Code
 
