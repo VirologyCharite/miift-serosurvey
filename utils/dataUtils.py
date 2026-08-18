@@ -441,13 +441,12 @@ def addBinaryColumns(df):
 
 
 # Data preprocessing.
-def loadData(animal="bat", meanLifespanNoInfo=12):
+def loadData(animal="bat", meanLifespanNoInfo=12, inputfile=DATA_FILE):
     assert animal in ("bat", "rodent", "all")
-    dfOrig = pd.read_excel(DATA_FILE, skiprows=1)
+    dfOrig = pd.read_excel(inputfile)
     replaceColsVirusBinary = {
         col: col.replace(" IIFT", "")
-        for col in dfOrig.columns
-        if "IIFT" in col and not "Date" in col
+        for col in dfOrig.columns if "IIFT" in col and not "Date" in col
     }
     viruses = list(replaceColsVirusBinary.values())
     virusesLowerCase = [virus.lower() for virus in viruses]

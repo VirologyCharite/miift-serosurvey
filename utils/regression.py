@@ -1,14 +1,7 @@
 import pymc as pm
 import numpy as np
 import arviz as az, xarray
-
-# The following is a fix for a problem related to upgrading my Mac OS
-# https://discourse.pymc.io/t/pytensor-fails-to-compile-model-after-upgrading-to-mac-os-15-4/16796/7
-import pytensor
-
-pytensor.config.cxx = "/usr/bin/clang++"
 from pathlib import Path
-
 from utils.dataUtils import createSpeciesDf, createColonysizeDf
 
 RANDOM_SEED = 10
